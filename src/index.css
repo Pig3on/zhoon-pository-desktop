@@ -1,0 +1,28 @@
+:root {
+  --primary: #263238;
+  --secondary: #F7F7F2;
+  --accent: #F0803C;
+}
+
+
+html,body{
+  background-color: #263238;
+  color:white;
+}
+body {
+  margin: auto;
+  word-wrap: break-word;
+  font-family: 'Mali', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}

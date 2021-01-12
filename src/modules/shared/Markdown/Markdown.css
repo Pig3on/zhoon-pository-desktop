@@ -1,0 +1,115 @@
+.blogRoot {
+    background-color: var(--background);
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.blogRootFull {
+    background-color: var(--background);
+    padding: 10px;
+}
+.blogText {
+    display: inline;
+}
+
+.blogHeading1 {
+    font-size: 60px;
+}
+.blogHeading2 {
+    font-size: 50px;
+}
+.blogHeading3 {
+    font-size: 40px;
+}
+.blogHeading4 {
+    font-size: 30px;
+}
+.blogHeading5 {
+    font-size: 20px;
+}
+.blogHeading6 {
+    font-size: 10px;
+}
+
+.blogStrong {
+    font-weight: bold;
+}
+
+.blogBreak {
+    /* no-op */
+}
+
+
+.blogParagraph {
+    /* no-op */
+}
+
+
+.blogThematicBreak {
+
+}
+
+.blogBlockQuote {
+
+}
+
+
+.blogDelete {
+
+}
+.blogLink {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+.blogImage {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    border: none;
+    border-collapse: collapse;
+}
+
+.tableCell {
+    flex: 1;
+    padding: 0; 
+    margin: 0;
+    display: inline-block;
+}
+
+.tableHead {
+    background-color: var(--primary);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tableBody {
+    background-color: var(--primary);
+}
+
+.tableRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.unorderedList {
+    list-style-type: square;
+}
+
+.inlineCode {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+    .blogRoot {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
