@@ -1,3 +1,4 @@
+// @ts-ignore
 import { firestore } from 'firebase';
 import FirestoreDocument from '../model/FirestoreDocument';
 
